@@ -14,19 +14,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
@@ -36,7 +28,7 @@
               "RelativeDocumentMoniker": "Final\\index.html",
               "ToolTip": "C:\\Users\\david.weir\\source\\repos\\weirsweb-assets\\Final\\index.html",
               "RelativeToolTip": "Final\\index.html",
-              "ViewState": "AQIAALMJAAAAAAAAAAASwMgJAAAhAAAA",
+              "ViewState": "AQIAAAkFAAAAAAAAAAAAACwFAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-01-31T04:32:46.246Z",
               "EditorCaption": ""
