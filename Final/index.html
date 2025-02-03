@@ -363,6 +363,7 @@
 
     <style type="text/css" comment="media-switches">
         @media screen and (max-width: 640px) {
+        @media screen and (max-width: 640px) {
             body {
                 zoom: 70%;
             }
@@ -689,7 +690,7 @@
 
                 <!-- DISC Chart -->
                 <div class="py-4 flex items-center justify-center flex-col" id="disc-profile-chart-container">
-                    <h1 class="text-3xl tracking-[45px] font-bold -m-10 pt-10 pl-[72px]">
+                    <h1 class="text-3xl font-bold -m-10 pt-10 tracking-[50px] pl-[59px] md:pl-[72px] md:tracking-[45px]  ">
                         <span class="text-red-700">D</span><span class="text-yellow-400">I</span><span class="text-green-700">S</span><span class="text-blue-700">C</span>
                     </h1>
                     <svg id="disc-profile-chart-svg" class="disc-profile-chart w-[490px] h-[490px]"></svg>
@@ -1937,11 +1938,13 @@
                         .tickFormat("")
                 );
 
+
             //median line
             g.append("rect")
                 .attr("class", "shading")
                 .attr("x", 0)
-                .attr("y", 132)
+                .attr("y", (width>400) ? 184 : 154)
+
                 .attr("width", width)
                 .attr("height", 65)
                 .attr("opacity", 0.2)
@@ -1951,9 +1954,10 @@
             g.append("rect")
                 .attr("class", "shading")
                 .attr("x", 104)
-                .attr("y", 0)
+                .attr("x", (width > 400) ? 104 : 90)
+                .attr("y", (width > 400) ? 4 : 1)
                 .attr("width", width / 2)
-                .attr("height", 32)
+                .attr("height", (width > 400) ? 32 : 26)
                 .attr("opacity", 0.3)
                 .attr("fill", "white");
 
