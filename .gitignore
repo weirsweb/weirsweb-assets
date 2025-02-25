@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/weirsweb-assets/FileContentIndex/418ba094-2819-4ef4-bb44-fa89ce943667.vsidx
+/.vs/slnx.sqlite
+/.vs/weirsweb-assets/FileContentIndex/10564e8a-ce6f-49f2-9eff-b4a544e71115.vsidx
+*.vsidx
+/.vs/weirsweb-assets/v17/.wsuo
+/.vs/weirsweb-assets/v17/DocumentLayout.json
